@@ -30,7 +30,7 @@ const Logic = () => {
               <td>{item.topic}</td>
               <td>
                 <a href={item.link} target="_blank" rel="noopener noreferrer">
-                  LINK
+                 {item.link}
                 </a>
               </td>
             </tr>

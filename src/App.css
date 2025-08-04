@@ -1,38 +1,56 @@
-body{
-  color: black;
+/* Centering the entire content */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f0f8ff;
 }
 
-.App {
+/* Styling the container */
+div {
   text-align: center;
 }
 
+/* Button Styling */
+button {
+  padding: 10px 20px;
+  margin: 15px 0;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+
+
+/* Table Styling */
 .table {
-  margin-top: 30px;
-  width: 100%;
+  margin: 0 auto;
   border-collapse: collapse;
-  background-color: white;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 12px 15px;
 }
 
 .table th {
-  background-color: #f4f4f4;
-  color: #333;
+  background-color:  #0077b6;;
+  color: white;
   font-weight: bold;
-  padding: 12px;
-  border: 1px solid #ddd;
-  text-align: left;
 }
 
-.table td {
-  padding: 12px;
-  border: 1px solid #ddd;
-  text-align: left;
+.table a:hover {
+  text-decoration: underline;
 }
-
-.table td a {
-  color: #007bff;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-
